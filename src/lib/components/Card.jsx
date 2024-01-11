@@ -1,8 +1,8 @@
 import Groups from "./icons";
 
-export default function Card({ className }) {
+export function Card({ className }) {
   return (
-    <div className="flex font-sans flex-col items-start w-[350px] border border-solid border-border-primary rounded-md gap-[16px]">
+    <div className="flex font-sans flex-col items-start w-[350px] border border-solid border-border-primary rounded-md gap-[16px] dark:bg-zinc-800">
       <div className="flex items-center justify-center h-[160px] w-full p-[8px] bg-background-secundary border-b-border-secondary">
         image
       </div>
