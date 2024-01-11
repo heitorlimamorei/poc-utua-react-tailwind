@@ -1,4 +1,5 @@
-import Groups from "./icons";
+import Groups from "../icons";
+import Button from "../Button/Button";
 
 export default function Card() {
   return (
@@ -35,9 +36,7 @@ export default function Card() {
             <p className="text-[14px] font-semibold">Regular</p>
           </div>
         </div>
-        <button className="bg-button-bg-primary text-white rounded-md px-[16px] py-[8px] w-full font-normal">
-            Button label
-        </button>
+        <Button label='Button label' />
       </div>
     </div>
   );
